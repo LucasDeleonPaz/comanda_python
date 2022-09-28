@@ -15,19 +15,19 @@ por exemplo, para cadastrar um produto, você deve informar o nome do produto e 
 O mesmo fora organizado entre pastas, separando as funções e funcionalidades, setorizando cada parte do código, onde busco a organização e facilidade de manutenção posterior do mesmo.
 Composto pela estrutura hierárquica que pode ser vista abaixo, busco orientar o código, deixando na **main.py** somente a chamada de cada função.<br/>
 
-**ESTRUTURA HIERÁRICA**
-  **MANAGEMENT**
-    ╚ __init__.py
-    ╚ tab_handler.py
-  **UTILS**
-    ╚ __init__.py
-    ╚ json_handler.py
-  .gitignore
-  main.py
-  menu.json
-  tables.json
+**ESTRUTURA HIERÁRICA** <br/>
+  **MANAGEMENT** <br/>
+    ╚ __init__.py <br/>
+    ╚ tab_handler.py <br/>
+  **UTILS** <br/>
+    ╚ __init__.py <br/>
+    ╚ json_handler.py <br/>
+  .gitignore <br/>
+  main.py <br/>
+  menu.json <br/>
+  tables.json <br/>
   
-## MANAGEMENT
+## MANAGEMENT 
 Pasta contendo 2 programas, sendo o **"__init__.py"** responsável por informar ao Python que se trata de uma "pacote" com módulos. E o programa **"tab_handler.py"** onde faço o cálculo final da comanda, retornando ao usuário um dicionário contendo o subtotal e a data da criação daquela comanda.
 
 ## UTILS
